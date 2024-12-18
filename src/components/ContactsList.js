@@ -174,7 +174,7 @@ const ContactsList = () => {
                 <div className="card-body">
                   <h6 className="mb-0">{contact.name}</h6>
                   <p className="mb-0">{contact.designation} - {contact.department}</p>
-                  <p className="mb-0">{contact.zone} > {contact.circle} > {contact.division}</p>
+                  <p className="mb-0">{contact.zone}  {contact.circle}  {contact.division}</p>
                   <p className="mb-0">Email: <strong>{contact.contact.email}</strong></p>
                   <p className="mb-0">Phone: <strong>{contact.contact.phone}</strong></p>
                 </div>
