@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "designation": "HOD",
+      "department": "Human Resources",
+      "zone": "North Zone",
+      "circle": "Circle A",
+      "division": "Division 1",
+      "contact": {
+        "email": "johndoe@example.com",
+        "phone": "+1234567890"
+      },
+      "photo": "https://via.placeholder.com/150",
+      "favorites": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "designation": "Manager",
+      "department": "Finance",
+      "zone": "South Zone",
+      "circle": "Circle B",
+      "division": "Division 2",
+      "contact": {
+        "email": "janesmith@example.com",
+        "phone": "+1234567891"
+      },
+      "photo": "https://via.placeholder.com/150",
+      "favorites": false
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "designation": "Engineer",
+      "department": "IT",
+      "zone": "East Zone",
+      "circle": "Circle C",
+      "division": "Division 3",
+      "contact": {
+        "email": "michaelj@example.com",
+        "phone": "+1234567892"
+      },
+      "photo": "https://via.placeholder.com/150",
+      "favorites": false
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "designation": "Technician",
+      "department": "Operations",
+      "zone": "West Zone",
+      "circle": "Circle D",
+      "division": "Division 4",
+      "contact": {
+        "email": "emilydavis@example.com",
+        "phone": "+1234567893"
+      },
+      "photo": "https://via.placeholder.com/150",
+      "favorites": true
+    }
+  ]
+  

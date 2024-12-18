@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "Name": "KOPPARATHI SRIDEVI",
+      "Designation": "DEE-1/TELECOM/TECHNICAL/TELECOM PESHI",
+      "Mobile": "9491045377",
+      "Extension": "2190",
+      "Landline": "2429244",
+      "Email": "sridevi.k@aptransco.co.in"
+    },
+    {
+      "id": 2,
+      "Name": "ANNAM KIRANMAI",
+      "Designation": "AEE-1/TELECOM/TECHNICAL/TELECOM PESHI",
+      "Mobile": "9490153012",
+      "Extension": "2191",
+      "Landline": null,
+      "Email": "kiranmai.a@aptransco.co.in"
+    },
+    {
+      "id": 3,
+      "Name": "KAKANI SRIDHAR",
+      "Designation": "EXECUTIVE ENGINEER/TELECOM/SLDC",
+      "Mobile": "9494100144",
+      "Extension": "2196,3245",
+      "Landline": null,
+      "Email": "sridhar.kakani@aptransco.co.in"
+    },
+    {
+      "id": 4,
+      "Name": "JALADI SABITA ROSE",
+      "Designation": "DEE TELECOM/TELECOM/SLDC",
+      "Mobile": "9493124502",
+      "Extension": "3244",
+      "Landline": null,
+      "Email": "sabitarose.j@aptransco.co.in"
+    },
+    {
+      "id": 5,
+      "Name": "MANNEPALLI SRAVANTHI",
+      "Designation": "AEE TELECOM-2/TELECOM/SLDC",
+      "Mobile": "8333993068",
+      "Extension": "3242",
+      "Landline": null,
+      "Email": "sravanthi.m@aptransco.co.in"
+    },
+    {
+      "id": 6,
+      "Name": "BASAVA DURGA BHAVANI",
+      "Designation": "AEE TELECOM/ERP & NETWORKING/VS/VJA",
+      "Mobile": "8333992979",
+      "Extension": "2197",
+      "Landline": null,
+      "Email": "durgabhavani.b@aptransco.co.in"
+    },
+    {
+      "id": 7,
+      "Name": "THANULATHA SUDABATTULA",
+      "Designation": "AEE TELECOM-1/TELECOM/SLDC",
+      "Mobile": "9491045391",
+      "Extension": "3242",
+      "Landline": null,
+      "Email": "thanulatha.s@aptransco.co.in"
+    },
+    {
+      "id": 8,
+      "Name": "AKKINA VENKATA RAVI PRASAD",
+      "Designation": "AEE TELECOM-3/TELECOM/SLDC",
+      "Mobile": "9491063316",
+      "Extension": "2000 ; 2001",
+      "Landline": null,
+      "Email": "raviprasad.av@aptransco.co.in"
+    },
+    {
+      "id": 9,
+      "Name": "BATTU VIJAYA KUMAR",
+      "Designation": "EE-1, O/O CE/TC/VS/VJA",
+      "Mobile": "8985383976",
+      "Extension": "2194",
+      "Landline": null,
+      "Email": "vijayakumar.battu@aptransco.co.in"
+    },
+    {
+      "id": 10,
+      "Name": "MAITI KSHAMA",
+      "Designation": "AEE TELECOM-1, O/O EE-2/TC/VS/VJA",
+      "Mobile": "9494095092",
+      "Extension": "2192",
+      "Landline": null,
+      "Email": "maiti.k@aptransco.co.in"
+    },
+    {
+      "id": 11,
+      "Name": "SAGGURTHI MOHAN RAO",
+      "Designation": "SUPERINTENDING ENG/TELECOM/VIJAYAWADA",
+      "Mobile": "9440817693",
+      "Extension": "2188",
+      "Landline": "2429244",
+      "Email": "mohanrao.saggurthi@aptransco.co.in"
+    },
+    {
+      "id": 12,
+      "Name": "MENAKA PADMAVATHI",
+      "Designation": "DEE TELE/TECH-1/TELECOM CIRCLE OFF/VJA",
+      "Mobile": "9490153010",
+      "Extension": null,
+      "Landline": null,
+      "Email": "padmavathi.m@aptransco.co.in"
+    },
+    {
+      "id": 13,
+      "Name": "BATHULA MARY RAMADEVI",
+      "Designation": "OFFICE SUB-1/TELECOM CIR OFF/VIJAYAWADA",
+      "Mobile": null,
+      "Extension": null,
+      "Landline": null,
+      "Email": null
+    },
+    {
+      "id": 14,
+      "Name": "BRAHMA SRI SILPA SIRISHA",
+      "Designation": "AEE TELE/TECH-1/TELECOM CIRCLE OFF/VJA",
+      "Mobile": "9490153014",
+      "Extension": null,
+      "Landline": null,
+      "Email": "silpasirisha.b@aptransco.co.in"
+    },
+    {
+      "id": 15,
+      "Name": "MUDIGONDA KISHORE KUMAR",
+      "Designation": "JR ASST-1/TELECOM CIRCLE OFF/VIJAYAWADA",
+      "Mobile": "6301583274",
+      "Extension": null,
+      "Landline": null,
+      "Email": null
+    },
+    {
+      "id": 16,
+      "Name": "E.CHANDRU NAIK",
+      "Designation": "EXECUTIVE ENGINEER/TELECOM/GUNTUR",
+      "Mobile": "8330938590",
+      "Extension": null,
+      "Landline": null,
+      "Email": "chandrunaik.eslavath@aptransco.co.in"
+    },
+    {
+      "id": 17,
+      "Name": "REVALLA VENKATA RAMANA",
+      "Designation": "DEE TELECOM/TELECOM SD/GUNTUR",
+      "Mobile": "9491053454",
+      "Extension": null,
+      "Landline": null,
+      "Email": "venkataramana.r@aptransco.co.in"
+    },
+    {
+      "id": 18,
+      "Name": "J SIREESHA",
+      "Designation": "AEE TELECOM-1/TELECOM SD/GUNTUR",
+      "Mobile": "9490153021",
+      "Extension": null,
+      "Landline": null,
+      "Email": "sireesha.j@aptransco.co.in"
+    },
+    {
+      "id": 19,
+      "Name": "CHINDU SAMBASIVA RAO",
+      "Designation": "AEE/TELECOM/400KV SS/SATTENAPALLI",
+      "Mobile": "9490153022",
+      "Extension": null,
+      "Landline": null,
+      "Email": "sambasivarao.ch@aptransco.co.in"
+    },
+    {
+      "id": 20,
+      "Name": "SIGIRIMOLA RAVINDRA BABU",
+      "Designation": "EXECUTIVE ENGINEER/ TELECOM/ONGOLE",
+      "Mobile": "9440817069",
+      "Extension": null,
+      "Landline": null,
+      "Email": "ravindrababu.s@aptransco.co.in"
+    }
+  ]
+  
