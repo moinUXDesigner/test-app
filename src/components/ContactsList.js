@@ -138,7 +138,7 @@ const ContactsList = () => {
   return (
     <div className="container-fluid">
       {/* View Switcher and Search */}
-      <div className="d-flex justify-content-between align-items-center mt-3">
+      <div className="d-flex justify-content-between align-items-center" style={{position: 'absolute', top: 30}}>
         <h4>Contacts</h4>
         <div>
           <input

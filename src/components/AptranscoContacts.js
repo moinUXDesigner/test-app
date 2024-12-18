@@ -6,20 +6,6 @@ const AptranscoContacts = () => {
   const [view, setView] = useState('card'); // State to manage view type
   const [searchTerm, setSearchTerm] = useState(''); // State for search input
 
-  // Filtered contacts based on search term
-//   const filteredContacts = transcodata.filter((contact) => {
-//     const searchValue = searchTerm.toLowerCase();
-//     return (
-//       contact.Name.toLowerCase().includes(searchValue) ||
-//       contact.Designation.toLowerCase().includes(searchValue) ||
-//       contact.department.toLowerCase().includes(searchValue) ||
-//       contact.Mobile.toLowerCase().includes(searchValue) ||
-//       contact.Extension.toLowerCase().includes(searchValue) ||
-//       contact.Landline.toLowerCase().includes(searchValue) ||
-//       contact.Email.toLowerCase().includes(searchValue)
-//     );
-//   });
-
 const filteredContacts = transcodata.filter((contact) => {
     const searchValue = searchTerm.toLowerCase();
     return (
@@ -37,7 +23,7 @@ const filteredContacts = transcodata.filter((contact) => {
   return (
     <div className="container-fluid">
       {/* View Switcher and Search */}
-      <div className="d-flex justify-content-between align-items-center sticky-top">
+      <div className="d-flex justify-content-between align-items-center sticky-top bg-body-tertiary pb-2" style={{top: '56px'}}>
         <h4>Contacts</h4>
         <div>
           <input
@@ -89,7 +75,7 @@ const filteredContacts = transcodata.filter((contact) => {
 
       {/* Table View */}
       {view === 'table' && (
-        <div className="table-responsive mt-3">
+        <div className="table-responsive mt-3 font-sm">
           <table className="table table-bordered table-hover">
             <thead className="table-primary">
               <tr>
