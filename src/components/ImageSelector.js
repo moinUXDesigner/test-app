@@ -1,5 +1,6 @@
 // import React, { useState } from 'react';
 // import DesireBox from './DesireBox';
+// import CounterCard from './CounterCard';
 
 // const ImageSelector = () => {
 //   const [selectedOption, setSelectedOption] = useState('0'); // Default to option 0
@@ -18,11 +19,15 @@
 //     setCustomText(text); // Update custom text
 //   };
 
+//   const handleClear = () => {
+//     setCustomText(''); // Clear the custom text
+//   };
+
 //   return (
 //     <div className="container">
 //       <div className="row">
 //         <div className="col-sm-12">
-//           <label htmlFor="imageSelect" className="form-label">Select an Option:</label>
+//           <label htmlFor="imageSelect" className="form-label">Select an Option or select custom:</label>
 //           <select
 //             id="imageSelect"
 //             className="form-select"
@@ -44,8 +49,14 @@
 //         )}
 //         <div className="col-sm-12 text-center mt-3">
 //           {selectedOption === '5' && customText ? (
-//             <div className="custom-image p-4 border">
+//             <div className="card custom-image p-4 border">
 //               <h5>{customText}</h5>
+//               <button
+//                 className="btn btn-sm btn-warning fw-semibold mt-2 mb-0"
+//                 onClick={handleClear} // Clear button functionality
+//               >
+//                 Clear
+//               </button>
 //             </div>
 //           ) : (
 //             selectedOption !== '5' && (
@@ -59,6 +70,11 @@
 //         </div>
         
 //       </div>
+//       <div className="row">
+//         <div class="col-sm-12">
+//             <CounterCard />
+//         </div>
+//       </div>
 //     </div>
 //   );
 // };
@@ -68,6 +84,7 @@
 
 import React, { useState } from 'react';
 import DesireBox from './DesireBox';
+import CounterCard from './CounterCard';
 
 const ImageSelector = () => {
   const [selectedOption, setSelectedOption] = useState('0'); // Default to option 0
@@ -99,7 +116,10 @@ const ImageSelector = () => {
             id="imageSelect"
             className="form-select"
             value={selectedOption}
-            onChange={(e) => setSelectedOption(e.target.value)} // Update the selected option
+            onChange={(e) => {
+              setSelectedOption(e.target.value);
+              if (e.target.value !== '5') setCustomText(''); // Reset custom text if not custom option
+            }}
           >
             <option value="0">Option 0</option>
             <option value="1">Option 1</option>
@@ -109,7 +129,7 @@ const ImageSelector = () => {
             <option value="5">Custom</option>
           </select>
         </div>
-        {selectedOption === '5' && (
+        {selectedOption === '5' && !customText && (
           <div className="col-sm-12 mt-4">
             <DesireBox onSubmit={handleCustomTextSubmit} />
           </div>
@@ -135,7 +155,11 @@ const ImageSelector = () => {
             )
           )}
         </div>
-        
+      </div>
+      <div className="row">
+        <div className="col-sm-12">
+          <CounterCard />
+        </div>
       </div>
     </div>
   );

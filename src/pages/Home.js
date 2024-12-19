@@ -1,5 +1,4 @@
 import React from "react";
-//import DesireBox from "../components/DesireBox";
 import ImageSelector from "../components/ImageSelector";
 
 const Home = () => {
