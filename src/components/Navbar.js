@@ -29,6 +29,9 @@ const Navbar = () => {
                             <li className="nav-item" data-bs-dismiss="offcanvas">
                                 <Link className="nav-link" to="/aptcontact">APT Contacts</Link>
                             </li>
+                            <li className="nav-item" data-bs-dismiss="offcanvas">
+                                <Link className="nav-link" to="/credits">Credits</Link>
+                            </li>
                         </ul>
                         {/* <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
