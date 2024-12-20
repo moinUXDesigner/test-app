@@ -91,12 +91,20 @@ const ImageSelector = () => {
   const [customText, setCustomText] = useState(''); // State to hold custom text from DesireBox
 
   // Mapping options to image URLs
-  const images = {
-    '0': 'https://via.placeholder.com/400x150?text=Image+0',
-    '1': 'https://via.placeholder.com/400x150?text=Image+1',
-    '2': 'https://via.placeholder.com/400x150?text=Image+2',
-    '3': 'https://via.placeholder.com/400x150?text=Image+3',
-    '4': 'https://via.placeholder.com/400x150?text=Image+4',
+  // const images = {
+  //   '0': 'https://via.placeholder.com/400x150?text=Image+0',
+  //   '1': 'https://via.placeholder.com/400x150?text=Image+1',
+  //   '2': 'https://via.placeholder.com/400x150?text=Image+2',
+  //   '3': 'https://via.placeholder.com/400x150?text=Image+3',
+  //   '4': 'https://via.placeholder.com/400x150?text=Image+4',
+  // };
+
+  const texts = {
+    '0': 'Please Select the option',
+    '1': 'Option 1 Selected',
+    '2': 'Option 2 Selected',
+    '3': 'Option 3 Selected',
+    '4': 'Option 4 Selected',
   };
 
   const handleCustomTextSubmit = (text) => {
@@ -147,11 +155,12 @@ const ImageSelector = () => {
             </div>
           ) : (
             selectedOption !== '5' && (
-              <img
-                src={images[selectedOption]} // Display image based on selected option
-                alt={`Selected Option ${selectedOption}`}
-                className="img-fluid"
-              />
+              // <img
+              //   src={images[selectedOption]} // Display image based on selected option
+              //   alt={`Selected Option ${selectedOption}`}
+              //   className="img-fluid"
+              // />
+              <h6>{texts[selectedOption]}</h6>
             )
           )}
         </div>
